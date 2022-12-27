@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {    
+      // Generate d.ts files
+      "declaration": true,
+      "emitDeclarationOnly": true,
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "jsx": "react-jsx",
+      "types": ["react-dom"],
+      "lib": [
+        "es5",
+        "es6",
+        "dom"
+      ],
+      "typeRoots": ["node_modules/@types", "src/types"]
+    }
+}
